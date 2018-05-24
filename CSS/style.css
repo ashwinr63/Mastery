@@ -1,0 +1,42 @@
+/* Selector {
+	property:value;
+} */
+
+body {
+	background-image: url(background-image.jpg);
+	background-size: cover;
+}
+h2 + p{
+	color: #908004;
+	text-align: center;
+	border: 5px solid #5de642;
+	cursor: pointer;
+}
+p {
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Montserrat',
+	sans-serif;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(124, 146, 172);
+}
+
+#div2 {
+	background-color: rgba(136, 140, 150, 0.219);
+}
