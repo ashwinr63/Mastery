@@ -1,3 +1,11 @@
+// import { without } from 'lodash';
+
+// console.log(without);
+
+var _ = require('lodash');
+
+console.log(_);
+
 var css = document.querySelector("h3");
 
 var color1 = document.querySelector(".color1");
